@@ -54,13 +54,13 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: zkmn73
+disqus_username: zkmn73-github-io
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: xxx                            #生成的clientID
-  clientSecret: xxx    #生成的clientSecret
+  enable: false     #是否开启Gitalk评论
+  clientID:         #生成的clientID
+  clientSecret:     #生成的clientSecret
   repo: zkmn73.github.io    #仓库名称
   owner: zkmn73    #github用户名
   admin: zkmn73
