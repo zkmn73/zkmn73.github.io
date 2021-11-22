@@ -1,0 +1,19 @@
+{
+  "name": "zkmn73 Blog",
+  "short_name": "zkmn73 Blog",
+  "description": "An Engineer Blog",
+  "icons": [{
+    "src": "icons/icon-image.jpeg",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "icons/icon-image.jpeg",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
