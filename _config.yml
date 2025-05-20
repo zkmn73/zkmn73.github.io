@@ -2,7 +2,7 @@
 title: zkmn73's Blog
 SEOTitle: zkmn73 的博客 | zkmn73's Blog
 header-img: img/post-bg-rwd.jpg
-email: hackersungl@gmail.com
+email: 
 description: "Every failure is leading towards success."
 keyword: "zkmn73"
 url: "http://zkmn73.github.io"          # your host, for absolute URL
@@ -11,14 +11,13 @@ github_repo: "https://github.com/zkmn73/zkmn73.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: ""
 sidebar-avatar: /img/about-image.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
-RSS: false
-# weibo_username:     xx
+RSS: true
 zhihu_username:     zkmn73
 github_username:    zkmn73
 #facebook_username:  xx
@@ -57,16 +56,6 @@ kramdown:
 # Disqus（https://disqus.com/）
 disqus_username: zkmn73-github-io
 
-# Gitalk
-gitalk:
-  enable: false     #是否开启Gitalk评论
-  clientID:         #生成的clientID
-  clientSecret:     #生成的clientSecret
-  repo: zkmn73.github.io    #仓库名称
-  owner: zkmn73    #github用户名
-  admin: zkmn73
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
 
 # 统计
 
@@ -88,13 +77,3 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
-
-# Friends
-friends: [
-    {
-        title: "Apple",
-        href: "https://apple.com"
-    }
-]
