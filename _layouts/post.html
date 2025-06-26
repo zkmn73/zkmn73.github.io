@@ -92,17 +92,6 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-
-                {% if site.giscus_app %}
-                <div class="comment">
-                    <script src="https://giscus.app/client.js" data-repo="zkmn73/zkmn73.github.io"
-                        data-repo-id="R_kgDOGYGkMg" data-category="General" data-category-id="DIC_kwDOGYGkMs4Cr9zK"
-                        data-mapping="title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0"
-                        data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="en"
-                        data-loading="lazy" crossorigin="anonymous" async>
-                        </script>
-                </div>
-                {% endif %}
             </div>
 
             <!-- Side Catalog Container -->
@@ -119,6 +108,17 @@ layout: default
                     </h5>
                     <ul class="catalog-body"></ul>
                 </div>
+            </div>
+            {% endif %}
+
+            {% if site.giscus_app %}
+            <div class="comment">
+                <script src="https://giscus.app/client.js" data-repo="zkmn73/zkmn73.github.io"
+                    data-repo-id="R_kgDOGYGkMg" data-category="General" data-category-id="DIC_kwDOGYGkMs4Cr9zK"
+                    data-mapping="title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0"
+                    data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="en" data-loading="lazy"
+                    crossorigin="anonymous" async>
+                    </script>
             </div>
             {% endif %}
 
