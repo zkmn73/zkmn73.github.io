@@ -70,9 +70,7 @@ layout: default
         <div class="row">
 
             <!-- Post Container -->
-            <div class="post-container
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1 ">
+            <div class="post-container col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
                 {{ content }}
 
@@ -99,24 +97,10 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-
-                {% if site.giscus_app %}
-                <div class="comment">
-                    <script src="https://giscus.app/client.js" data-repo="zkmn73/zkmn73.github.io"
-                        data-repo-id="R_kgDOGYGkMg" data-category="General" data-category-id="DIC_kwDOGYGkMs4Cr9zK"
-                        data-mapping="title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0"
-                        data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="en"
-                        data-loading="lazy" crossorigin="anonymous" async>
-                        </script>
-                </div>
-                {% endif %}
             </div>
 
             <!-- Sidebar Container -->
-            <div class="sidebar-container
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1 ">
-
+            <div class="sidebar-container col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -134,6 +118,18 @@ layout: default
                 </section>
                 {% endif %}
             </div>
+
+            {% if site.giscus_app %}
+            <div class="comment post-container col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <script src="https://giscus.app/client.js" data-repo="zkmn73/zkmn73.github.io"
+                    data-repo-id="R_kgDOGYGkMg" data-category="General" data-category-id="DIC_kwDOGYGkMs4Cr9zK"
+                    data-mapping="title" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0"
+                    data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="en" data-loading="lazy"
+                    crossorigin="anonymous" async>
+                    </script>
+            </div>
+            {% endif %}
+
         </div>
     </div>
 </article>
