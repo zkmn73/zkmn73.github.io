@@ -25,11 +25,10 @@ linkedin_username:   sunguoli
 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true
 
 
 # Gems
@@ -49,6 +48,18 @@ kramdown:
 
 # comments settings
 giscus_app: true
+giscus:
+  repo: zkmn73/zkmn73.github.io
+  repo_id: R_kgDOGYGkMg
+  category: General
+  category_id: DIC_kwDOGYGkMs4Cr9zK
+  mapping: title
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: bottom
+  theme: preferred_color_scheme
+  lang: en
 
 
 # Analytics settings
@@ -65,3 +76,9 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
+
+
+# CDN settings
+font_awesome_cdn: "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+fastclick_cdn: "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
+anchorjs_cdn: "//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js"
