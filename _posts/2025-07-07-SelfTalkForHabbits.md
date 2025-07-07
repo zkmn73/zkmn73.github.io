@@ -1,9 +1,10 @@
 ---
 layout:     post
 title:      Self Talk：李笑来通过戒烟实践总结的退出坏习惯和建立好习惯的方法论
-subtitle:   
+subtitle:   Self Talk：A methodology for quitting bad habits and establishing good habits through painless smoking cessation practices by Li Xiaolai
 date:       2025-07-07
 author:     zkmn73
+header-style: text
 catalog: true
 tags:
     - Self Talk
@@ -11,9 +12,7 @@ tags:
     - Lifelong Learner
 ---
 
-# 李笑来的Self Talk：通过无痛戒烟实践总结的退出坏习惯和建立好习惯的方法论
-
-Self Talk: A methodology for quitting bad habits and establishing good habits through painless smoking cessation practices
+# 李笑来通过无痛戒烟实践总结的退出坏习惯和建立好习惯的方法论
 
 
 最近看了李笑来的《长谈》视频，这个视频是我在2025年听的最好的几个视频之一，能提升认知，做为 Lifelong Learner 来说，又是一次很好的认知提升，特地总结下。
