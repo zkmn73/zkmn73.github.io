@@ -105,13 +105,13 @@ Self Talk就是对自己说话，自言自语。
 - 研究这件事情并不是一个高级技能，而是一个和读地图差不多的基础技能，也要学会分类。用AI帮助做研究。
 
 
-## 脑科学研究的一些结论：
+## 脑科学研究的一些结论
 1. 大脑的可塑性研究：伦敦出租车司机的海马体普遍体积更大。因为伦敦的路况复杂，他们要认路，他们退休之后。海马体的体积会缩小一点点。
 2. 圣母院的修女们长寿：不仅健康长寿，还没有老年病，发现他们大脑坏死程度和其他老人一样，但是没有症状，推论是：适度的体力劳动，长期朗读(朗读是大脑的有氧有氧活动)，修女的社会性关系是始终稳定。
 3. 朗读和写作是大脑的有氧活动。比如写作类比于游泳，会防老年痴呆。
 
 
-## 金句：
+## 金句
 - 一切成瘾性消费都是生产者对消费者的剥削。
 - 如果你有机会让你的孩子看到你用这种方法。这是最好的。示范给他看。就是他见过。就可以了。
 - 服美役：做指甲。每个指甲一平方厘米不到，做一次100到300，换算下相当于一平方米10~30万。全中国最贵的房就被你们这么给干没了，豪宅。
@@ -120,7 +120,7 @@ Self Talk就是对自己说话，自言自语。
 - 大脑就是你最好的玩具，尤其是人到一定的年龄之后，如果你不跟这个玩具好好的玩，其实就浪费了自己最有价值的资产和财富，而且也错过了一切的可能性。会更好玩的，会越来越好玩。
 
 
-## 视频中谈到的相关 Paper:
+## 视频中谈到的相关 Paper
 - [Acquiring “the Knowledge” of London's Layout Drives Structural Brain Changes](https://pmc.ncbi.nlm.nih.gov/articles/PMC3268356/)
 - [Alzheimer’s disease mortality among taxi and ambulance drivers: population based cross sectional study](https://www.bmj.com/content/387/bmj-2024-082194)
 - [London taxi drivers and bus drivers: a structural MRI and neuropsychological analysis](https://pubmed.ncbi.nlm.nih.gov/17024677/)
@@ -128,5 +128,5 @@ Self Talk就是对自己说话，自言自语。
 - 待补充和完善
 
 
-## References:
+## References
 - 李笑来x脱不花《长谈》
