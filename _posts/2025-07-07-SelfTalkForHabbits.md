@@ -4,7 +4,6 @@ title:      Self Talk：李笑来通过戒烟实践总结的退出坏习惯和�
 subtitle:   
 date:       2025-07-07
 author:     zkmn73
-header-style: text
 catalog: true
 tags:
     - Self Talk

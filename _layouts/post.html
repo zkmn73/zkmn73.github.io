@@ -6,7 +6,6 @@ layout: default
 <style type="text/css">
     header.intro-header {
         position: relative;
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
         background: {{ page.header-bg-css }};
     }
 
@@ -21,11 +20,7 @@ layout: default
     {% endif %}
 </style>
 
-{% if page.header-style == 'text' %}
 <header class="intro-header style-text">
-{% else %}
-<header class="intro-header">
-{% endif %}
     <div class="header-mask"></div>
     <div class="container">
         <div class="row">
