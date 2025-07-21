@@ -1,9 +1,7 @@
 # Site settings
 title: zkmn73's Blog
 SEOTitle: zkmn73's Blog
-header-img: img/post-bg-rwd.jpg
 email: 
-description: "Every failure is leading towards success."
 keyword: "zkmn73"
 url: "http://zkmn73.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
