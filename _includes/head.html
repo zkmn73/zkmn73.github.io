@@ -7,7 +7,7 @@
     <meta name="keywords" content="{{ site.keyword }}">
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
 
-    <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
@@ -15,20 +15,20 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/icon-image.jpeg">
 
-    <!-- Safari Webpage Icon    by-BY -->
+    <!-- Safari Webpage Icon -->
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/img/icon-image.jpeg">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ " /css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ " /css/hux-blog.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/hux-blog.min.css">
 
     <!-- Pygments Github CSS -->
-    <link rel="stylesheet" href="{{ " /css/syntax.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
     <!-- Custom Fonts -->
     <link href="{{ site.font_awesome_cdn }}" rel="stylesheet" type="text/css">
