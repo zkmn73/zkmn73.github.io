@@ -3,7 +3,11 @@ layout: default
 ---
 
 <!-- Page Header -->
+{% if page.header-style == 'text' %}
+<header class="intro-header style-text"
+{% else %}
 <header class="intro-header"
+{% endif %}
     style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
         <div class="row">
