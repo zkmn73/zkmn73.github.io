@@ -131,3 +131,4 @@ Self Talk就是对自己说话，自言自语。
 
 ## References
 - 李笑来x脱不花《长谈》
+- 公众号「笑来」[你我都可以不再吸烟了](https://mp.weixin.qq.com/s/FsPuTQxj7Ps9OAt899Kmaw)
