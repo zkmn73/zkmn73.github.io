@@ -33,7 +33,7 @@ h6 {
 
 h1 {
 	// drop V1.1.1
-	//font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h4 {
@@ -224,16 +224,12 @@ pre code {
 		width: 48%;
 
 		&.next {
-			float: right
+			float: right;
 		}
-
-		;
 
 		&.previous {
-			float: left
+			float: left;
 		}
-
-		;
 
 		>a {
 			width: 100%;
@@ -471,8 +467,36 @@ pre code {
 }
 
 // Header
-
 .intro-header {
+	&.style-text {
+		background: none;
+
+		.site-heading,
+		.post-heading,
+		.page-heading {
+			padding: 85px 0 20px;
+			color: @gray-dark;
+
+			.subheading {
+				margin-bottom: 15px;
+			}
+		}
+
+		.tags {
+
+			a,
+			.tag {
+				border-color: @gray-dark;
+				color: @gray-dark;
+
+				&:hover,
+				&:active {
+					background-color: rgba(0, 0, 0, 0.05);
+				}
+			}
+		}
+	}
+
 	background: no-repeat center center;
 	background-color: @gray;
 	background-attachment: scroll;
@@ -512,7 +536,7 @@ pre code {
 
 		h1 {
 			margin-top: 0;
-			font-size: 50px;
+			font-size: 36px;
 		}
 
 		.subheading {
@@ -526,7 +550,7 @@ pre code {
 
 		@media only screen and (min-width: 768px) {
 			h1 {
-				font-size: 80px;
+				font-size: 36px;
 			}
 		}
 	}
@@ -565,7 +589,7 @@ pre code {
 
 		@media only screen and (min-width: 768px) {
 			h1 {
-				font-size: 55px;
+				font-size: 36px;
 			}
 
 			.subheading {
