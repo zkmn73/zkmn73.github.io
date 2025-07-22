@@ -344,13 +344,12 @@ pre code {
 
 	.navbar-brand {
 		font-weight: 800;
-		// materialize
-		color: white;
+		color: @gray-dark;
 		height: 56px;
 		line-height: 25px;
 
 		&:hover {
-			color: rgba(255, 255, 255, 0.8);
+			color: darken(@gray-dark, 10%);
 		}
 	}
 
@@ -364,6 +363,13 @@ pre code {
 				letter-spacing: 1px;
 
 				// only highlight in mobile
+				color: @gray-dark;
+
+				&:hover,
+				&:focus {
+					color: @brand-primary;
+				}
+
 				&:active {
 					background: rgba(0, 0, 0, 0.12)
 				}
@@ -380,25 +386,25 @@ pre code {
 		border-bottom: 1px solid transparent;
 
 		.navbar-brand {
-			color: white;
+			color: @gray-dark;
 			padding: 20px;
 			line-height: 20px;
 
 			&:hover,
 			&:focus {
-				color: @white-faded;
+				color: @brand-primary;
 			}
 		}
 
 		.nav {
 			li {
 				a {
-					color: white;
+					color: @gray-dark;
 					padding: 20px;
 
 					&:hover,
 					&:focus {
-						color: @white-faded;
+						color: @brand-primary;
 					}
 
 					&:active {
