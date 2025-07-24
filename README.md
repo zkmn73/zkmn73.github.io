@@ -8,7 +8,7 @@ Welcome to [zkmn73's Blog](https://zkmn73.github.io/)!
 2. Main diferences:
    - **Comments**: using [giscus](https://giscus.app/), which is a commenting system powered by GitHub Discussions. You and visitors will not need other accounts any more, e.g. Disqus, Netease etc.
    - **More Simplify**: without head images.
-3. Feel free to fork and deploy your own site, and never forget to share and star!
+3. Feel free to fork and deploy your own site, and welcome to share and star!
 
 
 ## Thanks
