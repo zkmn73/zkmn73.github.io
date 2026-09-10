@@ -32,11 +32,14 @@
             color: @brand-primary !important;
         }
     }
+    // Tag chips need their own (darker) text color, overriding the
+    // `color: @gray-l !important` above which is meant for the
+    // catalog/TOC links that also live in `.sidebar-container`.
     .tags{
         a{
-            border-color: @gray-l;
+            color: @gray-dark !important;
             &:hover, &:active{
-                border-color: @brand-primary;
+                color: white !important;
             }
         }
     }

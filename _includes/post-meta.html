@@ -1,0 +1,8 @@
+{%- comment -%}
+  Renders "Date: ... | Estimated Reading Time: ... min | Author: ..." for a post.
+  Usage: {% include post-meta.html post=post %}  (post = a post or the current page)
+{%- endcomment -%}
+{%- assign words = include.post.content | strip_html | number_of_words: "auto" -%}
+{%- assign reading_time = words | divided_by: 200 -%}
+{%- if reading_time == 0 -%}{%- assign reading_time = 1 -%}{%- endif -%}
+Date: {{ include.post.date | date: "%B %-d, %Y" }} &nbsp;|&nbsp; Estimated Reading Time: {{ reading_time }} min &nbsp;|&nbsp; Author: {% if include.post.author %}{{ include.post.author }}{% else %}{{ site.title }}{% endif %}

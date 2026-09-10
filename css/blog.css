@@ -29,11 +29,11 @@
   color: #0085a1 !important;
 }
 .sidebar-container .tags a {
-  border-color: #bfbfbf;
+  color: #404040 !important;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
-  border-color: #0085a1;
+  color: white !important;
 }
 .sidebar-container .short-about img {
   width: 80%;
@@ -528,17 +528,6 @@ pre code {
 .intro-header.style-text .page-heading .subheading {
   margin-bottom: 15px;
 }
-.intro-header.style-text .tags a,
-.intro-header.style-text .tags .tag {
-  border-color: #404040;
-  color: #404040;
-}
-.intro-header.style-text .tags a:hover,
-.intro-header.style-text .tags .tag:hover,
-.intro-header.style-text .tags a:active,
-.intro-header.style-text .tags .tag:active {
-  background-color: rgba(0, 0, 0, 0.05);
-}
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-bottom: 20px;
@@ -583,8 +572,9 @@ pre code {
      */
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
-  font-size: 18px;
-  line-height: 1.1;
+  color: #808080;
+  font-size: 16px;
+  line-height: 1.5;
   display: block;
   font-weight: 300;
   margin: 10px 0 0;
@@ -618,10 +608,15 @@ pre code {
   margin-top: -5px;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-style: italic;
+  /* Hux learn from
+     *     TypeIsBeautiful,
+     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+     */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7;
+  color: #808080;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
 }
 .intro-header .post-heading .meta a {
   color: white;
@@ -634,7 +629,7 @@ pre code {
     font-size: 30px;
   }
   .intro-header .post-heading .meta {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .post-preview > a {
@@ -659,11 +654,17 @@ pre code {
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  /* Hux learn from
+     *     TypeIsBeautiful,
+     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+     */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7;
+  display: block;
   color: #808080;
-  font-size: 16px;
-  font-style: italic;
-  margin-top: 0;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
@@ -684,20 +685,29 @@ pre code {
     font-size: 16px;
   }
   .post-preview .post-meta {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 .post-content-preview {
-  font-size: 13px;
-  font-style: italic;
-  color: #a3a3a3;
+  /* Hux learn from
+     *     TypeIsBeautiful,
+     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+     */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7;
+  display: block;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #616161;
+  margin: 0 0 4px;
 }
 .post-content-preview:hover {
   color: #0085a1;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
-    font-size: 14px;
+    font-size: 15px;
+    margin-bottom: 6px;
   }
 }
 .section-heading {
@@ -895,34 +905,39 @@ img::-moz-selection {
 }
 /* Hux add tags support */
 .tags {
-  margin-bottom: -5px;
+  margin-bottom: -6px;
 }
 .tags a,
 .tags .tag {
+  /* Hux learn from
+     *     TypeIsBeautiful,
+     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
+     */
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  line-height: 1.7;
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 999em;
-  padding: 0 10px;
-  color: #ffffff;
-  line-height: 24px;
+  border: none;
+  border-radius: 6px;
+  padding: 3px 10px;
+  background-color: #eeeeee;
+  color: #404040;
+  line-height: 1.6;
   font-size: 12px;
   text-decoration: none;
-  margin: 0 1px;
-  margin-bottom: 6px;
+  margin: 0 4px 6px 0;
 }
 .tags a:hover,
 .tags .tag:hover,
 .tags a:active,
 .tags .tag:active {
   color: white;
-  border-color: white;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #0085a1;
   text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
   .tags a,
   .tags .tag {
-    margin-right: 5px;
+    margin-right: 6px;
   }
 }
 #tag-heading {
