@@ -230,6 +230,9 @@ pre code {
 .postlist-container {
   margin-bottom: 15px;
 }
+.postlist-container .post-container {
+  padding-right: 0;
+}
 .post-container a {
   color: #337ab7;
 }
@@ -720,6 +723,24 @@ footer .list-inline {
   margin: 0;
   padding: 0;
 }
+footer .footer-social-links {
+  margin-bottom: 15px;
+}
+footer .footer-social-links li {
+  padding: 0 10px;
+}
+footer .footer-social-links a {
+  color: #404040;
+}
+footer .footer-social-links a:hover,
+footer .footer-social-links a:active {
+  color: #0085a1;
+}
+footer .footer-social-links i,
+footer .footer-social-links .fa-zhihu {
+  font-size: 20px;
+  font-style: normal;
+}
 footer .copyright {
   font-size: 14px;
   text-align: center;
@@ -1003,6 +1024,40 @@ img::-moz-selection {
   }
 }
 /* Tags support End*/
+/* Archive page (by-year post listing) */
+.archive-container .archive-year {
+  margin-bottom: 30px;
+}
+.archive-container .archive-year-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #404040;
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eeeeee;
+}
+.archive-container .archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.archive-container .archive-list li {
+  display: flex;
+  align-items: baseline;
+  padding: 6px 0;
+}
+.archive-container .archive-list .archive-date {
+  flex: 0 0 70px;
+  color: #808080;
+  font-size: 14px;
+}
+.archive-container .archive-list a {
+  color: #404040;
+}
+.archive-container .archive-list a:hover,
+.archive-container .archive-list a:focus {
+  color: #0085a1;
+}
 /* Hux make all img responsible in post-container */
 .post-container img {
   display: block;
