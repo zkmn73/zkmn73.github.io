@@ -1,8 +1,17 @@
 {%- comment -%}
   Renders "Date: ... | Estimated Reading Time: ... min | Author: ..." for a post.
   Usage: {% include post-meta.html post=post %}  (post = a post or the current page)
+
+  NOTE: GitHub Pages builds with the `github-pages` gem, which is currently
+  pinned to Jekyll 3.10 — its `number_of_words` filter only accepts a single
+  argument there, so the CJK-aware `number_of_words: "auto"` mode (added in
+  a later Jekyll) breaks the live build even though it works fine locally on
+  a newer Jekyll. Counting characters instead avoids that filter entirely and
+  works identically on every Jekyll version, and reads fine as an estimate
+  for both Chinese and English content.
 {%- endcomment -%}
-{%- assign words = include.post.content | strip_html | number_of_words: "auto" -%}
-{%- assign reading_time = words | divided_by: 200 -%}
+{%- assign content_text = include.post.content | strip_html | strip_newlines | remove: " " -%}
+{%- assign char_count = content_text | size -%}
+{%- assign reading_time = char_count | divided_by: 300 -%}
 {%- if reading_time == 0 -%}{%- assign reading_time = 1 -%}{%- endif -%}
 Date: {{ include.post.date | date: "%B %-d, %Y" }} &nbsp;|&nbsp; Estimated Reading Time: {{ reading_time }} min &nbsp;|&nbsp; Author: {% if include.post.author %}{{ include.post.author }}{% else %}{{ site.title }}{% endif %}

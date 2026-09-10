@@ -3,6 +3,9 @@
 Welcome to [zkmn73's Blog](https://zkmn73.github.io/)!
 
 
+A minimalist personal homepage using Markdown-formatted blog posts.
+
+
 ## Getting Started
 1. You will need knowledge about `Ruby`, `Bundler`, `Jekyll`, `Grunt`, `MarkDown`, You can refence the [user manual](https://github.com/Huxpro/huxpro.github.io/blob/master/_doc/Manual.md#hux-blog-user-manual).
 2. Main diferences:
