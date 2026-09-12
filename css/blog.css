@@ -116,6 +116,21 @@
     display: none;
   }
 }
+a:focus,
+button:focus,
+.navbar-toggle:focus,
+.tags a:focus,
+.tag:focus {
+  outline: none;
+}
+a:focus-visible,
+button:focus-visible,
+.navbar-toggle:focus-visible,
+.tags a:focus-visible,
+.tag:focus-visible {
+  outline: 2px solid #0085a1;
+  outline-offset: 2px;
+}
 body {
   /* Hux learn from
      *     TypeIsBeautiful,

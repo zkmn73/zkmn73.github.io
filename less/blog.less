@@ -5,6 +5,25 @@
 
 // Global Components
 
+// Bootstrap's normalize.css only zeroes the outline on `:active`/`:hover`,
+// so clicking a link (which also focuses it) still shows the browser's
+// default blue focus ring. Suppress it for mouse clicks but keep it for
+// keyboard (Tab) navigation via `:focus-visible`, so accessibility isn't lost.
+a,
+button,
+.navbar-toggle,
+.tags a,
+.tag {
+	&:focus {
+		outline: none;
+	}
+
+	&:focus-visible {
+		outline: 2px solid @brand-primary;
+		outline-offset: 2px;
+	}
+}
+
 body {
 	.sans-serif;
 	font-size: 16px;
