@@ -60,6 +60,9 @@ giscus:
 # ga_domain: xxx               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 g_gtag_id: 'G-3ZV1QJLMSG'
 
+# Google Search Console site verification (leave blank to omit the meta tag)
+google_site_verification: "xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI"
+
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签

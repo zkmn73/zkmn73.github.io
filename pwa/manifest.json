@@ -2,11 +2,13 @@
   "name": "zkmn73's Blog",
   "short_name": "",
   "description": "",
-  "icons": [{
-    "src": "/img/1411396.jpeg",
-    "sizes": "64x64",
-    "type": "image/jpeg"
-  }],
+  "icons": [
+    {
+      "src": "/img/icon.jpeg",
+      "sizes": "64x64",
+      "type": "image/jpeg"
+    }
+  ],
   "background_color": "#fff",
   "theme_color": "#000",
   "start_url": "/",
